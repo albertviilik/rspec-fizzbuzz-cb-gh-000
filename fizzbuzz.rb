@@ -9,6 +9,6 @@ def fizzbuzz(n)
     result += "Buzz"
   end
   if result == ""
-    nil
+    return nil
   end
 end
