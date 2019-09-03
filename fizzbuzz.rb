@@ -4,6 +4,7 @@ def fizzbuzz(n)
   result = ""
   if n % 3 == 0
     result += "Fizz"
+  end
   if n % 5
     result += "Buzz"
   end
