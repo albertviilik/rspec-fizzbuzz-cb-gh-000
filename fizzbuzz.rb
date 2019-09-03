@@ -3,7 +3,7 @@
 def fizzbuzz(n)
   result = nil
   if n % 3 == 0
-    result = "Fizz"
+    result += "Fizz"
   end
   if n % 5 == 0
     result += "Buzz"
