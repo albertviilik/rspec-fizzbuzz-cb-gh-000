@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(n)
   result = ""
-  if n % 3 = 0
+  if n % 3 == 0
     result += "Fizz"
   end
   if n % 5 == 0
