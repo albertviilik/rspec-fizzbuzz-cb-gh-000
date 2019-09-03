@@ -8,5 +8,7 @@ def fizzbuzz(n)
   if n % 5 == 0
     result += "Buzz"
   end
-  return result
+  if result == ""
+    nil
+  end
 end
